@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.lms-menu {
+  box-sizing: border-box;
+  height: 88px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 90;
+  animation: 0.5s ease 0.5s 1 normal both running slideInDown;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  padding: 0px 10px;
+} /*#HEADER_1*/
+
+.home .lms-menu-ontop {
+  background: transparent;
+}
+
+.lsm-menu-wrapper {
+  height: 0px;
+  width: 100%;
+  border: 0px none rgb(111, 112, 116);
+  padding: 0px 15px;
+} /*#DIV_2*/
+
+.lms-menu-logo {
+  display: flex;
+  float: left;
+  height: 55.9844px;
+  left: 0px;
+  position: relative;
+  right: 0px;
+  top: 0px;
+  width: 106.047px;
+  border: 0px none rgb(85, 85, 85);
+  margin: 15px 37px 0px 0px;
+} /*#A_10*/
+
+.lsm-menu-left {
+  height: 0px;
+  width: auto;
+  list-style: outside none none;
+  margin: 0px;
+} /*#UL_13*/
+
+// #LI_14
+.lsm-menu-left li {
+  display: block;
+  float: left;
+  height: 87px;
+} /*#LI_14*/
+
+// #A_15
+.lsm-menu-left li a {
+  display: block;
+  height: 87px;
+  left: 0px;
+  position: relative;
+  text-transform: uppercase;
+  top: 0px;
+  color: inherit;
+  border: 0px none rgb(10, 10, 10);
+  font: 16px / 26.272px cocoonCustomPrimary, sans-serif;
+  list-style: outside none none;
+  outline: rgb(10, 10, 10) none 0px;
+  padding: 30px 25px 30px 25px;
+  transition: all 0.3s ease 0s;
+} /*#A_15*/
+
+// #UL_70
+.lsm-menu-right {
+  float: right;
+  height: 45px;
+  list-style: outside none none;
+  margin: 20px 44px 10px 0px;
+  padding: 0px;
+  display: inline;
+} /*#UL_70*/
+
+.lsm-menu-right li {
+  color: rgb(10, 10, 10);
+  display: inline-block;
+  height: 45px;
+  font: 15px / 24.63px 'Open Sans', sans-serif;
+  list-style: outside none none;
+} /*#LI_71*/
+
+.lsm-menu-right li a {
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  font: 16px / 30px cocoonCustomPrimary, sans-serif;
+  padding: 6px 12px;
+  transition: all 0.3s ease 0s;
+} /*#A_72*/
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.home .lms-menu-ontop a {
+  color: white;
+}
+
+.home .lms-menu-ontop .lms-menu-label {
+  color: white !important;
+}
+
+.home .lms-menu-ontop .lms-menu-icon {
+  color: white !important;
+}
+
+.home .lms-menu-animate {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+// #lms-menu-animate-tricky {
+//     -webkit-animation-duration: .5s;
+//     animation-duration: .5s;
+//     -webkit-animation-delay: 500ms;
+//     animation-delay: 500ms;
+// }
+
+.lms-nav-visibleDesktop,
+.lms-nav-visibleHandheld,
+.lms-nav-visibleTablet {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lms-nav-hiddenDesktop {
+    display: none;
+  }
+  .lms-nav-visibleDesktop {
+    display: block;
+  }
+}
+
+.lsm-menu-wrapper .lsm-menu-nav .NavBar_userWrapper {
+  height: 87px;
+  top: 0;
+}
+
+.lsm-menu-wrapper .lsm-menu-nav .NavBar_userWrapper .lms-menu-label {
+  color: rgb(10, 10, 10);
+}
+
+.lsm-menu-wrapper .lsm-menu-nav .NavBar_userWrapper .lms-menu-icon {
+  color: rgb(31, 31, 31);
+}
+
+.lsm-menu-wrapper .MoreMenuMobileTablet_container {
+  background-color: var(--white-color);
+  height: 100vh;
+}
+
+.lsm-menu-wrapper .NavBar_separate {
+}

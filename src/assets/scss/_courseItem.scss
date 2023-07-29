@@ -1,0 +1,189 @@
+.course-item-wrapper {
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 100%
+}/*#DIV_1*/
+
+.course-item-wrapper:hover {
+    -webkit-box-shadow: 0 0 30px 0 rgba(32, 32, 32, .15);
+    box-shadow: 0 0 30px 0 rgba(32, 32, 32, .15);
+    -moz-box-shadow: 0 0 30px 0 rgba(32,32,32,.15);
+    -o-box-shadow: 0 0 30px 0 rgba(32,32,32,.15);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.course-item-wrapper .thumb {
+    box-sizing: border-box;
+    display: flex;
+    height: 192px;
+    position: relative;
+}/*#DIV_2*/
+
+.course-item-wrapper .thumb:before {
+    background-color: rgba(0,0,0,.3);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.thumb-img {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+}/*#IMG_3*/
+
+.thumb-overlay {
+    height: 192px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}/*#DIV_4*/
+
+.course-item-wrapper:hover .thumb .thumb-overlay:before {
+    background-color: rgba(0,0,0,.4);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.course-item-wrapper .thumb .thumb-overlay .thumb-overlay-tag, .course-item-wrapper .thumb .thumb-overlay .tc_preview_course {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.course-item-wrapper .thumb .thumb-overlay .thumb-overlay-tag {
+    background-color: #c75533;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    height: 30px;
+    line-height: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.course-item-wrapper:hover .thumb .thumb-overlay .thumb-overlay-tag, .course-item-wrapper:hover .thumb .thumb-overlay .tc_preview_course {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.thumb-overlay a {
+    color: rgb(255, 255, 255);
+    display: block;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 92.1562px;
+    width: 100%;
+    font: 15px / 24.63px "Open Sans", sans-serif;
+}/*#A_6*/
+
+.course-item-detail {
+    color: rgb(111, 112, 116);
+    position: relative;
+    width: 100%;
+    border: 0px none rgb(111, 112, 116);
+    font: 15px / 24.63px "Open Sans", sans-serif;
+}/*#DIV_7*/
+
+.course-item-detail-wrapper {
+    color: rgb(111, 112, 116);
+    border: 0px none rgb(111, 112, 116);
+    font: 15px / 24.63px "Open Sans", sans-serif;
+    padding: 20px;
+}/*#DIV_8*/
+
+.course-item-detail-wrapper a {
+    border: 0px none rgb(85, 85, 85);
+}/*#A_10*/
+
+.course-item-detail-wrapper a:after {
+    border: 0px none rgb(85, 85, 85);
+}/*#A_10:after*/
+
+.course-item-title {
+    caret-color: rgb(10, 10, 10);
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    width: 100%;
+    border: 0px none rgb(10, 10, 10);
+    font-size: 18px;
+    margin: 0px 0px 8px;
+    outline: rgb(10, 10, 10) none 0px;
+}/*#H5_11*/
+
+.course-item-description {
+    color: rgb(126, 126, 126);
+    border: 0px none rgb(126, 126, 126);
+    font: 15px / 24.63px "Open Sans", sans-serif;
+    margin: 0px 0px 5px;
+    text-align: justify;
+}/*#P_13*/
+
+.course-item-footer {
+    bottom: 0px;
+    display: flow-root;
+    height: 50px;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    border-top: 1px solid rgb(238, 238, 238);
+    font: 15px / 24.63px "Open Sans", sans-serif;
+    padding: 10px 20px;
+}/*#DIV_17*/
+
+.course-item-footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.course-item-footer ul li {
+    color: rgb(111, 112, 116);
+    display: inline-block;
+    height: 24px;
+    list-style: outside none none;
+    margin-right: 4px;
+}/*#LI_19*/

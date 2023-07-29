@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        [
+            "@babel/plugin-transform-template-literals",
+            {
+                "loose": true,
+                "retainLines": true
+            }
+        ],
+        "@babel/plugin-transform-arrow-functions"
+    ]
+}

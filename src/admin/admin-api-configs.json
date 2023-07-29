@@ -1,0 +1,46 @@
+{
+    "Categories" : "/api/admin/categories",
+    "Courses" : "/api/admin/courses",
+    "Lessons" : "/api/admin/lessons",
+    "Quizzes": "/api/admin/quizzes",
+    "Chapters" : "/api/admin/chapters",
+    "GetAllLessonsByCourse" : "/api/admin/lessons/get-by-course",
+    "GetQuizzesByLesson": "/api/admin/lessons/{0}/quizzes",
+    "Orders" : "/api/admin/orders",
+    "Questions" : "/api/admin/questions",
+    "Users" : "/api/admin/users",
+    "Administrators" : "/api/admin/administrators",
+    "ContentPages": "/api/admin/content-pages",
+    "AdminAnnouncement": "/api/admin/announcements/",
+    "AdminAssets": "/api/admin/assets/",
+    "GetAllResources": "/api/admin/assets/by-course/{0}",
+    "DeleteAssetById": "/api/admin/assets/{0}",
+    "AddAsset": "/api/admin/assets",
+    "UpdateAsset": "/api/admin/assets",
+    "LiveSchedules": "/api/admin/live-schedules",
+    "Surveys": "/api/admin/surveys",
+    "UserSurveys": "/api/admin/user-surveys",
+    "Rooms": "/api/admin/rooms",
+    "DoanteAccount" : "/api/admin/donate-accounts",
+    "AssessmentQuestions": "/api/admin/assessment-questions",
+    "Search": "/api/search",
+
+    "BlogCategories" : "/api/admin/blog-categories",
+    "Posts" : "/api/admin/posts",
+
+    "Banners" : "/api/admin/sliders",
+
+    "UploadImage": "/api/image",
+    "UploadAsset": "/api/asset",
+
+    "SystemStats": "/api/admin/statistics/system",
+    "TopCourseByRegistered": "/api/admin/statistics/top-courses-by-register-count",
+    "TopCourseByRevenue": "/api/admin/statistics/top-courses-by-revenue",
+    "TeacherRegisters": "/api/admin/teacher-registers",
+    "Students" : "/api/admin/students",
+
+    "GetAllAuthor": "/api/admin/authors",
+    "DeleteAuthor": "/api/admin/authors/{0}",
+    "AuthorCreate": "/api/admin/authors",
+    "AuthorUpdate": "/api/admin/authors"
+}

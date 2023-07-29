@@ -1,0 +1,62 @@
+{
+    "Login": "/api/signin",
+    "Logout": "/api/signout",
+    "SignUp": "/api/signup",
+    "LoginGoogle": "/api/signin/google",
+    "LoginFacebook": "/api/signin/facebook",
+    "GetUserInfomation": "/api/user/info",
+    "SsoSupport": "/api/user/sso-support",
+    "EmailConfirmation": "/api/user/email-confirmation",
+    "ResendEmailConfirmation": "/api/user/resend-email-confirmation",
+    "RequestResetPassword": "/api/user/request-reset-password",
+    "CheckResetPassword": "/api/user/check-reset-password",
+    "ResetPassword": "/api/user/reset-password",
+    "ChangePassword": "/api/user/change-password",
+    "GetQuizzesByLesson": "/api/lessons/{0}/quizzes",
+    "GetQuizById": "/api/quizzes/{0}",
+    
+    "Feedback": "/api/feedback",
+    "Surveys": "/api/surveys",
+    "Quizzes": "/api/quizzes",
+    "GetMyCourses": "/api/user/courses",
+    "GetCategories": "/api/categories",
+    "Courses": "/api/courses",
+    "GetCoursesByCategory": "/api/courses/category/{0}",
+    "GetCoursesFeatured": "/api/courses/featured",
+    "GetCoursesNewest": "/api/courses/newest",
+    "GetCoursesHot": "/api/courses/hot",
+    "GetCourseDetail": "/api/courses/{0}",
+    "GetCourseLessons": "/api/courses/lessons/{0}",
+    "CompleteLesson": "/api/user/course",
+    "RegisterCourse": "/api/courses/register/{0}",
+    "GetLessonExcercisesDetail": "/api/lesson/{0}/excercises",
+    "GetCourseExcercisesBrief": "/api/courses/{0}/excercises",
+    "MyCourseFeedback": "/api/courses/feedback/{0}",
+    "Checkout": "/api/courses/checkout",
+
+    "GetQuestions": "/api/questions/by-lesson/{0}",
+    "GetQuestionsByCourse": "/api/questions/by-course/{0}",
+    "QuestionSubmit": "/api/questions/submit/{0}",
+    "GetUserQuestionsByCourse": "/api/user-questions/by-course/{0}",
+    "GetUserQuestionsByLesson": "/api/user-questions/by-lesson/{0}",
+
+    "GetContentPages": "/api/content-pages",
+    "GetContentPagesBrief": "/api/content-pages/all-brief",
+
+    "GetComments": "/api/comments",
+    "Comment": "/api/comment",
+    "LikeComment": "/api/comment/like/{0}",
+    "UnLikeComment": "/api/comment/unlike/{0}",
+
+    "LiveSchedules": "/api/live-schedules",
+
+    "Banners": "/api/banners",
+
+    "Posts": "/api/posts",
+    "BlogCategories": "/api/blog-categories",
+
+    "Search": "/api/search",
+
+    "UploadImage": "/api/image",
+    "UploadDocument": "/api/document"
+}

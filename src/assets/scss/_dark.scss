@@ -1,0 +1,348 @@
+body[theme="dark"],
+.body-theme-dark {
+    background-color: #03123b;
+    color: white;
+    background-image: url(../images/background-nightblue.png);
+    .highlight-bg {
+        background-color: #222222;
+    }
+}
+
+body[theme="dark"],
+.body-theme-dark {
+    .lms-menu {
+        background-color: #000000;
+        color: white;
+        background-image: linear-gradient(#485e97 10%, #03123b 40%);
+    }
+
+    .lms-menu a {
+        color: white;
+    }
+
+    .lms-menu .NavBar_userWrapper .lms-menu-label {
+        color: white;
+    }
+
+    .lms-menu .NavBar_userWrapper .lms-menu-icon {
+        color: white;
+    }
+
+    .CourseSideBar_courseSidebarList ul li a {
+        color: inherit;
+    }
+
+    .CourseSideBar_courseSidebarList ul li a.CourseSideBar_active {
+        color: var(--primary-color);
+    }
+
+    .CourseSideBar_courseSidebarList ul {
+        border: 1px solid #dbdbdb47;
+    }
+
+    .CourseMenu_wrapper li a {
+        color: white;
+    }
+
+    .CourseMenu_wrapper li a {
+        color: white;
+    }
+
+    .contact-wrapper {
+        background-color: #404040;
+    }
+
+    .contact-wrapper a {
+        color: white;
+    }
+
+    .contact-wrapper a:hover {
+        color: var(--primary-color);
+    }
+
+    .Auth_box {
+        background-color: #404040;
+    }
+
+    .Question_wrapper .Question_textWrapper h2 {
+        color: white;
+    }
+
+    .Answer_wrapper .Answer_textWrapper > div {
+        color: white;
+    }
+
+    .QuestionList_wrapper h2 {
+        color: white;
+    }
+
+    .SideBar_userInfo {
+        color: white;
+    }
+
+    .NavItem_container .NavItem_content {
+        color: white;
+    }
+
+    .Label_label {
+        color: white;
+    }
+
+    .Message_information {
+        background-color: #404040;
+    }
+
+    .course-item-wrapper:hover {
+        box-shadow: 0 0 30px 0 var(--primary-color);
+        -moz-box-shadow: 0 0 30px 0 rgba(32, 32, 32, 0.15);
+        -o-box-shadow: 0 0 30px 0 rgba(32, 32, 32, 0.15);
+    }
+
+    .CourseDetail_breadcrumb .CourseDetail_icon {
+        color: var(--primary-color);
+    }
+
+    .CourseDetail_textContent {
+        color: #ffffffcc;
+    }
+
+    .CurriculumOfCourse_headerSticky {
+        // background-color: #2b2b2b;
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse .CurriculumOfCourse_curriculumPanel .CurriculumOfCourse_panelHeading {
+        background-color: var(--white-20-color);
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse .CurriculumOfCourse_panel .CurriculumOfCourse_panelBody {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_panel
+        .CurriculumOfCourse_panelBody
+        .CurriculumOfCourse_lessonItem {
+        color: white;
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_panel
+        .CurriculumOfCourse_panelBody
+        .CurriculumOfCourse_lessonItem
+        button {
+        color: white;
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_panel
+        .CurriculumOfCourse_panelBody
+        .CurriculumOfCourse_lessonItem
+        button:hover {
+        color: var(--primary-color);
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_curriculumPanel
+        .CurriculumOfCourse_panelHeading
+        .CurriculumOfCourse_headline {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_curriculumPanel
+        .CurriculumOfCourse_panelHeading.CurriculumOfCourse_activePanel
+        .CurriculumOfCourse_headline {
+        color: black;
+    }
+
+    .CurriculumOfCourse_curriculumOfCourse
+        .CurriculumOfCourse_curriculumPanel
+        .CurriculumOfCourse_panelHeading.CurriculumOfCourse_activePanel {
+            background-color: #00f0ff;
+        }
+
+    .Tab_tab {
+        color: #ffffffcc;
+    }
+
+    .Tab_tab.Tab_active {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    .Learning_description {
+        color: #ffffffcc;
+    }
+
+    .Playlist_groupTitleWrapper {
+        background-color: var(--white-20-color);
+        border-bottom: 1px solid #636363;
+    }
+
+    .Playlist_groupTitleWrapper:hover {
+        background-color: var(--active-color);
+    }
+
+    .Playlist_groupTitleWrapper.Playlist_groupTitleWrapper_active {
+        background-color: var(--active-color);
+    }
+
+    .Playlist_lessonItem .Playlist_relatedTitle {
+        color: white;
+    }
+
+    .Playlist_lessonItem:hover {
+        background-color: var(--primary-color);
+    }
+
+    .Playlist_lessonItem.Playlist_active {
+        background-color: var(--primary-color);
+    }
+
+    .ShortFeature_column h3 {
+        color: #ffffffcc;
+    }
+
+    .course-item-wrapper {
+        background-color: #000;
+    }
+
+    .course-item-title {
+        color: #fff;
+    }
+
+    .course-item-detail-wrapper {
+        color: #ffffffcc;
+    }
+
+    .course-item-description {
+        color: #ffffffcc;
+    }
+
+    .course-item-footer ul li {
+        color: #ffffffcc;
+    }
+
+    .CourseDetail_purchaseBadge {
+        background-color: #111;
+    }
+
+    .checkout-note a {
+        color: var(--primary-color);
+    }
+
+    .checkout-note a:hover {
+        opacity: 0.5;
+    }
+
+    .CourseDetail_purchaseBadge h5 {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .CourseDetail_discount {
+        color: #ffffffcc;
+    }
+
+    .CourseDetail_purchaseBadge ul li {
+        color: #ffffffcc;
+    }
+
+    .CourseDetail_topicList .CourseDetail_list li {
+        color: #ffffffcc;
+    }
+
+    .Dialog_dialog {
+        background-color: #2b2b2b;
+    }
+
+    .Dialog_content {
+        border-bottom: 1px solid #111;
+    }
+
+    .Dialog_footer .Dialog_button {
+        border-bottom: 1px solid #111;
+    }
+
+    .Dialog_footer .Dialog_cancel {
+        border-right: 1px solid #111;
+    }
+
+    .Auth_header {
+        background-color: #111;
+    }
+
+    .jss29 {
+        color: #ffffffcc;
+    }
+
+    #___reactour .reactour__helper {
+        background-color: #2b2b2b;
+    }
+
+    #learning-lesson .course-rating-content-wrapper {
+        background-color: #2b2b2b;
+    }
+
+    .btn-link:not(:hover) {
+        color: var(--primary-color);
+    }
+
+    .Setting_wrapper {
+        .menu-item {
+            color: white;
+        }
+
+        .menu-item.active,
+        .menu-item:hover {
+            color: var(--active-color);
+        }
+    }
+
+    .Auth_subHeading,
+    .Auth_snsHelp,
+    .Auth_disclaimer p {
+        color: lightgray;
+    }
+
+    .Auth_box .Auth_loginWrapper .Auth_resetWrapper .Auth_resetLink,
+    .Auth_box .Auth_loginWrapper .Auth_signinWrapper .Auth_resetLink,
+    .Auth_box .Auth_loginWrapper .Auth_agreeTermsWrapper .Auth_resetLink {
+        color: lightgray;
+    }
+
+    #blog,
+    #post,
+    .post-interest {
+        .post-title a {
+            color: white;
+        }
+
+        .post-title a:hover {
+            color: orangered;
+        }
+
+        .cat-item-link {
+            color: white;
+        }
+
+        .cat-item-link:hover {
+            background-color: gray;
+        }
+
+        .cat-item-link.active {
+            background-color: gray;
+        }
+
+        .carousel-slider {
+            .dot {
+                background: orangered;
+            }
+        }
+    }
+    .QuizzesModal .modal-content {
+        background-color: var(--dark-color);
+    }
+}
+

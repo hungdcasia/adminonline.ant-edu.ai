@@ -1,0 +1,213 @@
+{
+    "data": [
+      {
+        "point": 50,
+        "level": 1,
+        "modules": [],
+        "_id": "5f550405132b470015f6ebe4",
+        "answers": [
+          {
+            "_id": "5f550444132b470015f6ec0a",
+            "title": "HTML viết tắt của Hypertext Markup Language, nghĩa là Ngôn ngữ đánh dấu siêu văn bản",
+            "description": "",
+            "right": true,
+            "createdAt": "2020-09-06T15:46:12.007Z",
+            "updatedAt": "2020-09-06T15:46:12.007Z"
+          },
+          {
+            "_id": "5f550494132b470015f6ec1f",
+            "title": "HTML là viết tắt của Hypertext Makeup Language, nghĩa là Ngôn ngữ trang điểm siêu văn bản",
+            "description": "",
+            "right": false,
+            "createdAt": "2020-09-06T15:47:32.246Z",
+            "updatedAt": "2020-09-06T15:47:32.246Z"
+          },
+          {
+            "_id": "5f5504ba132b470015f6ec2b",
+            "title": "HTML dùng để xây dựng style (kiểu dáng) cho website!",
+            "description": "",
+            "right": false,
+            "createdAt": "2020-09-06T15:48:10.946Z",
+            "updatedAt": "2020-09-06T15:48:10.946Z"
+          },
+          {
+            "_id": "5f5504d9132b470015f6ec34",
+            "title": "HTML là ngôn ngữ lập trình xử lý thuật toán cho giao diện website.",
+            "description": "",
+            "right": false,
+            "createdAt": "2020-09-06T15:48:41.258Z",
+            "updatedAt": "2020-09-06T15:48:41.258Z"
+          },
+          {
+            "_id": "5f5504f4132b470015f6ec3f",
+            "title": "HTML là ngôn ngữ được ví như bộ khung của website.",
+            "description": "",
+            "right": true,
+            "createdAt": "2020-09-06T15:49:08.470Z",
+            "updatedAt": "2020-09-06T15:49:08.470Z"
+          }
+        ],
+        "testCases": [],
+        "title": "Quiz 1: HTML & CSS",
+        "type": "quiz",
+        "entityId": "45",
+        "entityType": "Lesson",
+        "parentId": "2",
+        "parentType": "Course",
+        "order": 10,
+        "html": "",
+        "content": "### Câu hỏi\nNhững phát biểu nào đúng khi nói về ngôn ngữ HTML?\n\n> Có nhiều đáp án đúng! Ô check hình vuông (checkbox) là có nhiều đáp án đúng, ô check hình tròn (radio) là có một đáp án đúng.",
+        "language": "html",
+        "runWith": "run",
+        "userId": "1",
+        "createdAt": "2020-09-06T15:45:09.998Z",
+        "updatedAt": "2020-12-16T01:51:52.169Z",
+        "__v": 5,
+        "quizSelectType": "checkbox",
+        "passed": true,
+        "testCounts": 1,
+        "user": {
+          "point": 1020,
+          "_id": "5e9c9ca93fc52b0011b60279",
+          "createdAt": "2020-04-19T18:47:05.049Z",
+          "updatedAt": "2020-11-13T09:55:00.551Z",
+          "userId": "1",
+          "__v": 0,
+          "firstName": "Sơn",
+          "lastName": "Đặng",
+          "photo": "https://avatar-redirect.appspot.com/google/109023826614717592641?size=400",
+          "username": "son-dang"
+        },
+        "submitCounts": 10
+      },
+      {
+        "point": 50,
+        "level": 1,
+        "modules": [],
+        "_id": "6007bbb9decd680015741ada",
+        "answers": [
+          {
+            "_id": "6007bbd7decd680015741aec",
+            "title": "Cascading Style Sheets - Ngôn ngữ định kiểu (tạo kiểu dáng - style) cho ngôn ngữ đánh dấu (HTML)",
+            "description": "",
+            "createdAt": "2021-01-20T05:12:55.937Z",
+            "updatedAt": "2021-01-20T05:12:55.937Z"
+          },
+          {
+            "_id": "6007bc01decd680015741af1",
+            "title": "Cascading Slide Sheets - Ngôn ngữ tạo style cho HTML như màu sắc, kích thước, v.v",
+            "description": "",
+            "createdAt": "2021-01-20T05:13:37.902Z",
+            "updatedAt": "2021-01-20T05:13:37.902Z"
+          },
+          {
+            "_id": "6007bc16decd680015741aff",
+            "title": "Các đáp khác đều sai",
+            "description": "",
+            "createdAt": "2021-01-20T05:13:58.010Z",
+            "updatedAt": "2021-01-20T05:13:58.010Z"
+          }
+        ],
+        "testCases": [],
+        "title": "#Quiz 2: CSS là gì?",
+        "type": "quiz",
+        "entityId": "45",
+        "entityType": "Lesson",
+        "parentId": "2",
+        "parentType": "Course",
+        "order": 10,
+        "html": "",
+        "content": "### Câu hỏi\nCSS là gì?",
+        "language": "html",
+        "runWith": "",
+        "code": "",
+        "userId": "1",
+        "createdAt": "2021-01-20T05:12:25.036Z",
+        "updatedAt": "2021-01-20T05:13:59.401Z",
+        "__v": 3,
+        "quizSelectType": "radio",
+        "testCounts": 0,
+        "user": {
+          "point": 1020,
+          "_id": "5e9c9ca93fc52b0011b60279",
+          "createdAt": "2020-04-19T18:47:05.049Z",
+          "updatedAt": "2020-11-13T09:55:00.551Z",
+          "userId": "1",
+          "__v": 0,
+          "firstName": "Sơn",
+          "lastName": "Đặng",
+          "photo": "https://avatar-redirect.appspot.com/google/109023826614717592641?size=400",
+          "username": "son-dang"
+        },
+        "submitCounts": 10
+      },
+      {
+        "point": 50,
+        "level": 1,
+        "modules": [],
+        "_id": "6007bc5edecd680015741b13",
+        "answers": [
+          {
+            "_id": "6007bc66decd680015741b14",
+            "title": "HTML",
+            "description": "",
+            "createdAt": "2021-01-20T05:15:18.348Z",
+            "updatedAt": "2021-01-20T05:15:18.348Z"
+          },
+          {
+            "_id": "6007bc69decd680015741b15",
+            "title": "CSS",
+            "description": "",
+            "createdAt": "2021-01-20T05:15:21.717Z",
+            "updatedAt": "2021-01-20T05:15:21.717Z"
+          },
+          {
+            "_id": "6007bc73decd680015741b16",
+            "title": "Javascript",
+            "description": "",
+            "createdAt": "2021-01-20T05:15:31.344Z",
+            "updatedAt": "2021-01-20T05:15:31.344Z"
+          },
+          {
+            "_id": "6007bc7ddecd680015741b17",
+            "title": "Các đáp án khác đều sai",
+            "description": "",
+            "createdAt": "2021-01-20T05:15:41.224Z",
+            "updatedAt": "2021-01-20T05:15:41.224Z"
+          }
+        ],
+        "testCases": [],
+        "title": "#Quiz 3: Hiểu về HTML & CSS",
+        "type": "quiz",
+        "entityId": "45",
+        "entityType": "Lesson",
+        "parentId": "2",
+        "parentType": "Course",
+        "order": 10,
+        "html": "",
+        "content": "### Câu hỏi\nĐể định kích thước, màu sắc cho một thẻ (phần tử) trong HTML ta sử dụng cái gì?",
+        "language": "html",
+        "runWith": "",
+        "code": "",
+        "userId": "1",
+        "createdAt": "2021-01-20T05:15:10.762Z",
+        "updatedAt": "2021-01-20T05:15:46.627Z",
+        "__v": 4,
+        "quizSelectType": "radio",
+        "testCounts": 0,
+        "user": {
+          "point": 1020,
+          "_id": "5e9c9ca93fc52b0011b60279",
+          "createdAt": "2020-04-19T18:47:05.049Z",
+          "updatedAt": "2020-11-13T09:55:00.551Z",
+          "userId": "1",
+          "__v": 0,
+          "firstName": "Sơn",
+          "lastName": "Đặng",
+          "photo": "https://avatar-redirect.appspot.com/google/109023826614717592641?size=400",
+          "username": "son-dang"
+        },
+        "submitCounts": 10
+      }
+    ]
+  }
